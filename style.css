@@ -40,8 +40,27 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
+.menu{
+    display: inline-flex;
+    align-items: center;
+    padding: 30px;
+}
 
+.menu__header{
+    margin-right: 200px;
+    display: flex;
+    white-space: nowrap;
+    padding-left: 50px;
+}
+
+.vector{
+    padding: 20px;
+}
+
+.menu__list{
+    display: inline-flex;
+    gap: 20px;
+    white-space: nowrap;
 }
 
 /*Sección Title*/

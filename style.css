@@ -69,6 +69,30 @@ section.title{
 
 }
 
+.title__profile{
+    float: right;
+    margin-right: 90px;
+}
+
+.title__container{
+    margin-left: 100px;
+    padding: 56px;
+}
+
+.title__bio{
+    font-size: 43px;
+}
+.title__subsection{
+   font-weight: normal;
+   text-align: start;
+}
+
+.title__network{
+    display:flex;
+    padding: initial;
+    gap: 50px;
+}
+
 /*Sección About*/
 
 section.about{

@@ -8,6 +8,7 @@ en las secciones señaladas */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --cor-de-seccion: #EAF2FD;
 }
 
 body {
@@ -65,10 +66,6 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Title*/
 
-section.title{
-
-}
-
 .title__profile{
     float: right;
     margin-right: 90px;
@@ -80,7 +77,7 @@ section.title{
 }
 
 .title__bio{
-    font-size: 43px;
+    font-size: 42px;
 }
 .title__subsection{
    font-weight: normal;
@@ -96,7 +93,22 @@ section.title{
 /*Sección About*/
 
 section.about{
+    background-color: var(--cor-de-seccion);
+}
 
+div.about__container{
+    margin-left: 150px;
+    margin-right: 400px;
+    padding: 32px ;
+}
+
+.about__title{
+    font-size: 26px;
+}
+
+img.firma{
+    height: 82px;
+    width: 102px;
 }
 
 /*Sección Hobbies*/

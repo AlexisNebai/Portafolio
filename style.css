@@ -9,6 +9,7 @@ en las secciones señaladas */
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --cor-de-seccion: #EAF2FD;
+   --cor-de-Cuadro: #FFFFFF;
 }
 
 body {
@@ -97,7 +98,7 @@ section.about{
 }
 
 div.about__container{
-    margin-left: 150px;
+    margin-left: 118px;
     margin-right: 400px;
     padding: 32px ;
 }
@@ -111,11 +112,55 @@ img.firma{
     width: 102px;
 }
 
-/*Sección Hobbies*/
+/*Sección Skill-Hobbies*/
+section.skills{
+    padding: 32px;
+    margin-left: 118px;
+    margin-right: 118px;
+}
+
+div.skills__line{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.skills__box{
+    height: 156px;
+    width: 156px; 
+    background-color: var(--cor-de-Cuadro);
+    display: grid;
+    align-items: end; 
+}
+
+.skills__title{
+    text-align: center;
+}
+
+/*Hobbies*/
 
 section.hobbies{
-    
+    padding: 32px;
+    margin-left: 118px;
+    margin-right: 118px;
 }
+
+div.hobbies__line{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.hobbies__box{
+    height: 156px;
+    width: 156px; 
+    background-color: var(--cor-de-Cuadro);
+    display: grid;
+    align-items: end;    
+}
+
+.hobbies__title{
+    text-align: center;
+}
+
 
 /* Experiencia Académica*/
 

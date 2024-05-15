@@ -22,6 +22,8 @@ body {
 }
 ol, ul,li {
     list-style: none;
+    padding: unset ;
+    margin-left: 5px;
 }
 a{
     text-decoration: none;

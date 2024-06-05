@@ -199,8 +199,6 @@ section.academic{
 .academic__courses__item__title{
     margin: 0%;
     padding-top: 1em;
-    line-height: auto;
-    text-wrap: balance;
 }
 
 .academic__courses__item__subtitle{
@@ -215,6 +213,61 @@ section.experience{
     margin-left: 118px;
     margin-right: 118px;
 }
+
+.experience__section__title{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.experiencie__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.experiencie__box:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+.experiencie__box:nth-child(5){
+    flex-direction: row-reverse;
+}
+
+.experiencia__botao--repo{
+    border-radius: 16px;
+    color: white;
+    background: #2A7AE4;
+    padding: 8px 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.experience__botao--demo{
+    background: var(--cor-de-fundo);
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    border-radius: 16px;
+    padding: 8px 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.experiencia__botao--repo:hover, .experience__botao--demo:hover{
+    transform: scale(1.1);
+}
+
+.experiencia__botao--repo{
+    margin-bottom: 10px;
+}
+
 
 /*Contacto*/
 

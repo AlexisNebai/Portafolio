@@ -272,7 +272,7 @@ section.experience{
 /*Contacto*/
 
 section.formcontato{
-
+    display: unset;
 }
 
 /*footeer*/

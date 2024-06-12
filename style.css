@@ -324,6 +324,10 @@ section.formcontato{
     border: 2px solid #2ab9e4;
 }
 
+.formcontato__textarea{
+    margin: 0;
+}
+
 .placeholder{
     position: absolute;
     top: 5px;
@@ -348,6 +352,46 @@ section.formcontato{
     height: 133px;
 }
 
+.formulario_input-error{
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 20px ;
+    display: none;
+}
+
+.formcontato__input-margen{
+    margin-bottom: 5px;
+}
+
+.formulario_input-error-activo{
+    display: block;
+}
+
+.formulario_validacion{
+    position: absolute;
+    right: 1px;
+    padding: 20px;
+    z-index: 100;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.formulario_aviso{
+    height: 45px ;
+    line-height: 45px;
+    background: #f66060;
+    padding:  0 15px;
+    border-radius: 3px;
+    display: none;
+}
+
+.formulario_aviso-activo{
+    display: block;
+}
+
+.formulario_aviso p{
+    margin: 0;
+}
 
 .formcontato__botao{
     color: white;
@@ -359,10 +403,42 @@ section.formcontato{
     border: none;
     cursor: pointer;
     transition: 1s all;
+    margin-top: 26px;
 }
 
 .formcontato__botao:hover{
     transform: scale(1.1);
+}
+
+.formulario_mensaje-exito{
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+
+/*estilo validacion*/
+.input-box-correcto .formulario_validacion {
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario_mensaje-exito-activo{
+    color: #1ed12d;
+    display: block;
+}
+
+.input-box-incorrecto .placeholder{
+    color: #bb2929;
+
+}
+
+.input-box-incorrecto .formulario_validacion{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.input-box-incorrecto .formcontato__input{
+    border: 3px solid #bb2929;
 }
 
 /*footeer*/

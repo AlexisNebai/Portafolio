@@ -371,25 +371,46 @@
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext1">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <div class="input-box">
+                    <form class="formcontato__form" id="formulario">
+
+                        <div class="input-box " id="grupo_nombre">
                             <input class="formcontato__input" type="text" name="nombre">
-                            <label class="placeholder">Nombre</label>
+                            <i class="formulario_validacion fa-regular fa-circle-xmark"></i>
+                            <label for="nombre" class="placeholder">Nombre</label>
+                            <p class="formulario_input-error">Ingrese su nombre</p>
                         </div>
-                        <div class="input-box">
-                            <input class="formcontato__input" type="email" name="email"> 
-                            <label class="placeholder">E-mail</label>
-                        </div>
-                        <div class="input-box">
-                            <input class="formcontato__input" type="text" name="asunto">
-                            <label class="placeholder">Asunto</label>
-                        </div>
-                        <div class="input-box">
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" ></textarea>
-                            <label class="placeholder">Mensaje</label>
-                        </div>
-                            <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                         
+
+                        <div class="input-box" id="grupo_email">
+                            <input class="formcontato__input" type="email" name="email"> 
+                            <i class="formulario_validacion fa-regular fa-circle-xmark"></i>
+                            <label for="email"class="placeholder">E-mail</label>
+                            <p class="formulario_input-error">Ingrese un E-mail valido</p>
+                        </div>
+                        
+                        <div class="input-box" id="grupo_asunto">
+                            <input class="formcontato__input" type="text" name="asunto">
+                            <i class="formulario_validacion fa-regular fa-circle-xmark"></i>
+                            <label for="asunto" class="placeholder">Asunto</label>
+                            <p class="formulario_input-error">Ingrese el Asunto</p>
+
+                        </div>
+                        
+                        <div class="input-box" id="grupo_mensaje">
+                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" ></textarea>
+                            <i class="formulario_validacion fa-regular fa-circle-xmark"></i>
+                            <label for="mensaje" class="placeholder">Mensaje</label>
+                            <p class="formulario_input-error">Indique el mensaje</p>
+                        </div>
+
+                        <div class="formulario_aviso" id="formulario_aviso">
+                            <p><i class="fa-solid fa-triangle-exclamation"></i><b>Error:</b> Por favor completa el formulario parapoder contactarte</p>
+                        </div>
+                        
+                        <div class="formulario_grupo formulario_grupo-enviar">
+                            <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                            <p class="formulario_mensaje-exito" id="formulario_mensaje-exito">El mensaje se envio exitosamente!</p>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -399,11 +420,15 @@
         <section class="footer">
             <div class="footer__rodape">
                 <p>Desarrollado por Fulana de Tal</p>
+                
+
                 <p>2022</p>
             </div>
         </section>
     </div>
  <!-- Script del documento JavaScript -->
 <script src="validacion.js"></script>
+<script src="https://kit.fontawesome.com/ff3b4ea90a.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

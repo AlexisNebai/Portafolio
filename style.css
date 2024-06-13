@@ -444,7 +444,17 @@ section.formcontato{
 /*footeer*/
 
 section.footer{
-   
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__rodape p {
+    margin: 0;
+    font-weight: bold;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
